@@ -1,0 +1,130 @@
+html, body, {
+	overflow-x: hidden;
+}
+
+.imagens {
+	margin-top: 30px;
+}
+
+.ftx {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+#momentos {
+	margin-top: 50px;
+}
+
+.lu {
+	margin-top: 50px;
+	
+}
+
+.lui {
+	background: #f0f0f0;
+}
+
+.navbar-light .navbar-toggler {
+
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,0);
+
+}
+
+.down {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li{
+	float: right;
+	margin: 0px 7px;
+}
+
+footer {
+	background: black;
+	padding: 15px 0px 15px 0px;
+	position: relative;
+}
+
+footer p {
+	 margin-top: 10px;
+	 text-align: center;
+	 color: white;
+}
+
+.imagens .img1:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+} 
+.imagens .img2:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.imagens .img3:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+} 
+
+.imagens .img4:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+/*fim textos---------------*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.mm img {
+		padding: 10px;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+
+		display: inline-block;
+		width: 70px;
+		height: 35px;
+		margin-top: 25em;
+	
+	}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.mm img {
+		padding: 10px;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+
+		display: inline-block;
+		width: 70px;
+		height: 35px;
+		margin-top: 25em;
+	
+	}
+}
+ 
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+   
+}
+ 
+/* Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+ 
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+ }
